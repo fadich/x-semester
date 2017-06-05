@@ -1,0 +1,6 @@
+
+Генетический алгоритм — наглядная реализация: https://habrahabr.ru/post/254759/
+
+Генетическая оптимизация на Python : http://easydan.com/arts/2016/genetic-optimization/
+
+Генетический алгоритм. Просто о сложном: https://habrahabr.ru/post/128704/
