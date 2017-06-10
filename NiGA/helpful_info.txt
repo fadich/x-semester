@@ -12,4 +12,3 @@
 Генетические алгоритмы: https://xakep.ru/2003/05/26/18589/
 
 Backpropagation: https://habrahabr.ru/post/198268/
-
