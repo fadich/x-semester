@@ -1,0 +1,64 @@
+[System]
+Name='laba4'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=2
+NumRules=10
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='p__пульс'
+Range=[70 200]
+NumMFs=3
+MF1='низкий__пульс':'trapmf',[80 95 115 125]
+MF2='средний__пульс':'trapmf',[120 135 145 160]
+MF3='высокий__пульс':'trapmf',[150 165 180 195]
+
+[Input2]
+Name='w__вес'
+Range=[40 120]
+NumMFs=3
+MF1='небольшой__вес':'trapmf',[40 45 50 55]
+MF2='средний__вес':'trapmf',[50 60 70 80]
+MF3='большой__вес':'trapmf',[75 85 95 110]
+
+[Input3]
+Name='h__рост'
+Range=[130 200]
+NumMFs=3
+MF1='низкий__рост':'trapmf',[130 140 150 160]
+MF2='средний__рост':'trapmf',[150 160 170 180]
+MF3='высокий__рост':'trapmf',[170 180 190 200]
+
+[Output1]
+Name='скорость'
+Range=[1 20]
+NumMFs=3
+MF1='средняя__ск_вр__в':'trapmf',[5 7 9 11]
+MF2='низкая__ск_вр__в':'trapmf',[1 3 5 7]
+MF3='высокая__ск_вр__в':'trapmf',[9 11 13 15]
+
+[Output2]
+Name='угол'
+Range=[0 20]
+NumMFs=3
+MF1='низкий__угол':'trapmf',[0 2 4 6]
+MF2='средний__угол':'trapmf',[5 7 9 11]
+MF3='высокий__угол':'trapmf',[10 13 16 18]
+
+[Rules]
+1 1 1, 2 1 (1) : 1
+2 1 1, 1 2 (1) : 1
+3 2 2, 1 2 (1) : 1
+3 3 3, 1 1 (1) : 1
+2 2 2, 3 2 (1) : 1
+1 3 2, 2 2 (1) : 1
+2 3 3, 3 1 (1) : 1
+3 1 3, 3 3 (1) : 1
+2 2 3, 3 2 (1) : 1
+2 2 2, 2 3 (1) : 1

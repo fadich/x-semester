@@ -1,0 +1,14 @@
+
+Генетический алгоритм — наглядная реализация: https://habrahabr.ru/post/254759/
+
+Генетическая оптимизация на Python : http://easydan.com/arts/2016/genetic-optimization/
+
+Генетический алгоритм. Просто о сложном: https://habrahabr.ru/post/128704/
+
+Основные понятия генетических алгоритмов: http://www.aiportal.ru/articles/genetic-algorithms/basic-concepts.html
+
+Генетические операторы: http://qai.narod.ru/GA/genoperators.html
+
+Генетические алгоритмы: https://xakep.ru/2003/05/26/18589/
+
+Backpropagation: https://habrahabr.ru/post/198268/
